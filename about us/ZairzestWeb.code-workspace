@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "about us",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "about us",
+		"liveServer.settings.port": 5506
+	}
+}

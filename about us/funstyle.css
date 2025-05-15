@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300;400;500;600;700&display=swap');
+body {
+        margin: 0;
+        font-family: Outfit, sans-serif;
+        display: absolute;
+        flex-direction: column;
+        height: 100vh;
+        overflow-x: hidden;
+        background-color: #000000;
+        
+    }
+    .top {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 11%;
+        background-color: #101010;
+        display: stretch;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        z-index: 1000;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          border-bottom: 0.001px solid #a673c1;
+        }
+
+    .top .left {
+        color: white;
+        font-size: 18px;
+    }
+    .top .right {
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+    }
+    .middle {
+        position: absolute;
+        width: 100%;
+        background-color: #121212;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .bottom {
+        position: absolute;
+        width: 100%;
+        margin-top: 90%;
+        height:530px;
+        flex: 1;
+        background-color: #121212;
+        display: flex;
+        
+    }
+
+.zairzest
+{ font-family:Mohave;
+  font-weight: 300;
+  position:fixed;
+  font-size: 56px;
+  top:-33px;
+  left:30px;
+  background: linear-gradient(90deg, #4b0082, #2e0854, #191970, #0b3d91, #92d1f9, #19416b, #caefa0, #445795, #4b0082);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300% auto;
+  animation: fluidFlow 5s linear infinite;
+ }
+
+@keyframes fluidFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 300% 50%;
+  }
+}
+.want{
+  font-family: arial;
+  position:absolute;
+  font-size: 50px;
+  top:76px;
+  color: #ffffff;
+  left:8.6%;
+}
+.want2{
+  font-family: arial;
+  position:absolute;
+  font-size: 19px;
+  top:306px;
+  color: #ffffff;
+  left:8.6%;
+}
+.want3{
+  font-family: arial;
+  position:absolute;
+  font-size: 17px;
+  top:386px;
+  color: #ffffff;
+  left:8.6%;
+}
+.want4{
+  font-family: arial;
+  font-style: italic;
+  position:absolute;
+  font-size: 17px;
+  top:396px;
+  color: #ffffff;
+  left:81.6%;
+}
+.zn2{
+  font-family: arial;
+  font-weight:500;
+  font-size: 25px;
+  position:fixed;
+  right: 400px; 
+  top: 0.5px;
+  color: #f1e9e9;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+
+}
+.zn2:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px #25b9b9, 0 0 20px #493a52, 0 0 30px #2e56e7;
+}
+.zn3{
+  font-family: arial;
+  font-weight:500;
+  font-size: 25px;
+  position:fixed;
+  right: 260px; 
+  top: -0.2px;
+  color: #f1e9e9;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}.zn3:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px #59189f, 0 0 20px #af8dc4, 0 0 30px #2e56e7;
+}
+
+.zn4 {
+  font-family: arial;
+  font-weight: 500;
+  font-size: 25px;
+  position: fixed;
+  right:50px;
+  top: 0px;
+  color: #f1e9e9;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.zn4:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px #3d8888, 0 0 20px #95a8ed, 0 0 30px #2e56e7;
+}
+.logo {
+  position: absolute;
+  top: 306px;
+  right: 100px; 
+  width: 40px; 
+  height: auto;
+  margin: 10px; 
+  transition: transform 0.3s ease; 
+}
+
+
+
+.logo:hover {
+  transform: scale(1.2); 
+}
+.logo2 {
+  position: absolute;
+  top: 20%;
+  left:38.3%;
+  transition: transform 0.3s ease; 
+  animation: popIn 0.9s ease-in-out;
+}
+.logo2:hover {
+  transform: scale(1.03);
+}
+.logo3 {
+  position: absolute;
+  top: 20%;
+  right: 10%; 
+  transition: transform 0.3s ease; 
+  animation: popIn 1.2s ease-in-out;
+}
+.logo3:hover {
+  transform: scale(1.03); 
+}
+.logo4 {
+  position: absolute;
+  top: 104%;
+  right: 10%; 
+  transition: transform 0.3s ease; 
+  animation: popIn 1.2s ease-in-out;
+}
+.logo4:hover {
+  transform: scale(1.03);
+}
+.logo5 {
+  position: absolute;
+  top: 104%;
+  left:10%; 
+  transition: transform 0.3s ease;
+  animation: popIn 0.6s ease-in-out;
+}
+.logo5:hover {
+  transform: scale(1.03);
+}
+.logo6 {
+  position: absolute;
+  top: 104%;
+  left: 38.3%; 
+  transition: transform 0.3s ease; 
+  animation: popIn 0.9s ease-in-out;
+}
+.logo6:hover {
+  transform: scale(1.03);
+}
+@keyframes popIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.robot {
+  position: absolute;
+  top:289%;
+  left: 8%; 
+  width: 40%; 
+  height: 50%;
+  margin: 10px;
+  transition: transform 0.2s ease; 
+
+}
+
+.robot:hover {
+  transform: scale(1.1);
+}
+.robot2 {
+    position: absolute;
+    top:289%;
+    right: 8%; 
+    width: 40%; 
+    height: 50%;
+    margin: 10px; 
+    transition: transform 0.3s ease; 
+    
+  }
+.robot2:hover {
+    transform: scale(1.1);
+} 
+    .robot3 {
+        position: absolute;
+        top: 130%;
+        left:15%; 
+        width: 26%;
+        height: 64%; 
+        margin: 10px;
+        transition: transform 0.3s ease; 
+        animation: lightningEffect 2s infinite;
+    }
+    @keyframes lightningEffect {
+        0% {
+        filter: brightness(1);
+        }
+        50% {
+        filter: brightness(1.25);
+        }
+        100% {
+        filter: brightness(1);
+        }
+    }
+    
+    .robot4 {
+        position: absolute;
+        top: 118.8%;
+        left: 5.6%; 
+        width: 46%;
+        height: 76%; 
+        margin: 10px; 
+        transition: transform 0.3s ease; 
+        animation: lightningEffect 2s infinite;
+
+    }
+    @keyframes lightningEffect {
+        0% {
+        filter: brightness(1.5);
+        }
+        50% {
+        filter: brightness(0.95);
+        }
+        100% {
+        filter: brightness(1.5);
+        }
+    }
+    .robot6 {
+        position: absolute;
+        top: 171.8%;
+        left: 8.0%; 
+        width: 40%;
+        height: 23%; 
+        margin: 10px; 
+        animation: spin 30s linear infinite ;
+    }
+    @keyframes spin {
+        from {
+        transform: rotateY(360deg);
+        }
+        to {
+        transform: rotateY(0deg);
+        }
+    }
+    
+    .robot7 {
+        position: absolute;
+        top: 171.8%;
+        left: 8.0%; 
+        width: 40%;
+        height: 23%; 
+        margin: 10px; 
+        animation: spin 30s infinite ;
+
+    }
+    @keyframes spin {
+        from {
+        transform: rotateY(0deg);
+        }
+        to {
+        transform: rotateY(180deg);
+        }
+    }
+    .robot8 {
+        position: absolute;
+        top: 140.8%;
+        left: 54.0%; 
+        width: 35%;
+        height: 40%; 
+        margin: 10px; 
+    }
+   .robot1
+   { 
+    position: absolute;
+    top: 0;
+    left:-0.8%;
+    width:100%;
+    height: 100%;
+    margin: 10px; 
+    transition: transform 0.2s ease; 
+   }
+   .robot5
+   {
+    position: absolute;
+    top: 0;
+    left:-0.8%;
+    width:100%;
+    height: 100.34%;
+    margin: 10px; 
+    transition: transform 0.2s ease;
+    z-index:1;
+   }
+.name {
+  position: absolute;
+  top: 49%;
+  left: 46.8%;
+  font-size: 300%;
+  color: #ffffff;
+  font-family: mohave;
+  text-align: center;
+}
+.zenID {
+  position: absolute;
+  top: 54%;
+  left: 44.7%;
+  font-size: 200%;
+  color: #ffffff;
+  font-family: mohave;
+  text-align: center;
+}
+.zenID:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px #25b9b9, 0 0 20px #493a52, 0 0 30px #2e56e7;
+    text-decoration: underline;
+}
+
+.zairzest2
+{ font-family:Mohave;
+  font-weight: 800;
+  position:absolute;
+  font-size: 56px;
+  top:34%;
+  left:12%;
+  background: linear-gradient(to bottom, #ffffff 50%, #a673c1 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: slideInFromLeft 1.5s ease;
+  will-change: transform, opacity;
+
+}
+@keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+.roboto {
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  width: 10%;
+  height: 7%;
+  margin: 10px; 
+animation: zoomOut 1.4s ease-out;
+transition: transform 0.3s ease;
+z-index: 1;
+}
+
+@keyframes zoomOut {
+from {
+    transform: scale(0);
+    opacity: 0;
+}
+to {
+    transform: scale(1);
+    opacity: 1;
+}
+
+}
+.roboto:hover {
+    transform: scale(1.14);
+}
+.roo{
+  position: absolute;
+  top: 60%;
+  left: 12%;
+  width: 10%;
+  height: 7%;
+  margin: 10px;
+animation: zoomOut 1.4s ease-out;
+transition: transform 0.3s ease;
+z-index: 1;
+}
+.roo:hover{
+  transform: scale(1.14);
+}
+.zairzest3 {
+    font-family: Mohave;
+    font-weight: 1000;
+    position: absolute;
+    font-size: 69px;
+    top: 239%;
+    left: 37.4%;
+    color: rgb(86, 229, 245);
+    transition: transform 0.3s ease; 
+}
+.zairzest4
+{ font-family:Mohave;
+  font-weight: 100;
+  position:absolute;
+  text-align: center;
+  font-size: 22px;
+  top:259%;
+  left:30.2%;
+color: rgb(255, 255, 255);
+}
+.logo1 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  transition: transform 0.3s ease; 
+  animation: popIn 0.6s ease-in-out;
+}
+.logo1:hover {
+  transform: scale(1.03);
+}
+.logo {
+    position: absolute;
+    top: 306px;
+    right: 100px; 
+    width: 40px; 
+    height: auto;
+    margin: 10px; 
+    transition: transform 0.3s ease; 
+  }
+  
+  
+  
+  .logo:hover {
+    transform: scale(1.2); 
+  }
+  .logoo {
+    position: absolute;
+    top: 306px;
+    right: 180px;
+    width: 40px; 
+    height: auto;
+    margin: 10px; 
+    transition: transform 0.3s ease; 
+  }
+  .logoo:hover {
+    transform: scale(1.2);
+  }
+  .logooo {
+    position: absolute;
+    top: 306px;
+    right: 260px; 
+    width: 40px; 
+    height: auto;
+    margin: 10px; 
+    transition: transform 0.3s ease; 
+  }
+  .logooo:hover {
+    transform: scale(1.2); 
+  }
+  .logoooo {
+    position: absolute;
+    top: 306px;
+    right: 340px; 
+    width: 40px; 
+    height: auto;
+    margin: 10px;
+    transition: transform 0.3s ease; 
+  }
+  .logoooo:hover {
+    transform: scale(1.2);
+  }
+  .logooooo {
+    position: absolute;
+    top: 390px;
+    right: 100px; 
+    width: 50px; 
+    height: auto;
+    margin: 10px; 
+  }
